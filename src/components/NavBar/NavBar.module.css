@@ -1,0 +1,22 @@
+.navWrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+span {
+  font-size: x-large;
+  color: darkorange;
+}
+.pageNavigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

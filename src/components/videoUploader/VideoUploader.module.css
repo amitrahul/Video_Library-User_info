@@ -1,0 +1,74 @@
+.movieWrapper {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+.movieWrapper h1 {
+  text-align: center;
+}
+.selectVideoBtn {
+  width: 15%;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: larger;
+  margin-left: 42vw;
+}
+
+.selectVideoBtn:hover {
+  cursor: pointer;
+  background-color: rgb(132, 227, 227);
+}
+
+.uploadVideoWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20vw;
+}
+li {
+  list-style-type: none;
+}
+
+.videoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.videoList li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.videoList li button {
+  padding: 10px;
+  border-radius: 10px;
+}
+.videoList li button:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.videoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: azure;
+}
+
+.closeBtn {
+  width: 60%;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: rgb(93, 193, 206);
+  font-size: larger;
+}
+.closeBtn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: wheat;
+}
